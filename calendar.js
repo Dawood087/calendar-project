@@ -55,7 +55,7 @@ function renderCalendar(date = new Date()) {
     dateEl.textContent = day;
     cell.appendChild(dateEl);
 
-    const eventsToday = events.filter((e) => e.date === dateString);
+    const eventsToday = events.filter((e) => e.date === dateStr);
     const eventBox = document.createElement("div");
     eventBox.className = "events";
 
