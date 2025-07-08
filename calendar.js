@@ -122,7 +122,7 @@ function renderCalendar(date = new Date()) {
 // Add Event Modal
 
 function openModalForAdd(dateStr) {
-  document.getElementById("fromAction").value = "add";
+  document.getElementById("formAction").value = "add";
   document.getElementById("eventId").value = "";
   document.getElementById("deleteEventId").value = "";
   document.getElementById("courseName").value = "";
