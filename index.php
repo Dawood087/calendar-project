@@ -88,7 +88,7 @@ include "calendar.php";
         </form>
 
         <!-- ❌ Cancel --> 
-         <button type="button" class="submit-btn">❌ Cancel</button>
+         <button type="button" class="submit-btn" onclick="closeModal()">❌ Cancel</button>
 
         </div>
     </div>
